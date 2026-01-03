@@ -1,5 +1,7 @@
 # Personal Finance
 
+![usage demo gif](.github/media/usage_demo.gif)
+
 ## Overview
 
 This is a small Personal Finance web app that serves a simple UI to explore and annotate transaction data stored as CSV files. It includes example data under `example_data/` and a lightweight FastAPI app (`app.py`) which renders the dashboard and exposes any APIs needed by the frontend.
