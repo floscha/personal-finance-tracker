@@ -1,0 +1,510 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.nav {
+    background-color: #333;
+    padding: 15px 0;
+    margin: -20px -20px 20px -20px;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.nav a:hover {
+    background-color: #555;
+}
+
+.nav a.active {
+    background-color: #4caf50;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#chart {
+    margin: 0;
+    overflow: visible;
+}
+
+.axis {
+    font-size: 12px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #ccc;
+    shape-rendering: crispEdges;
+}
+
+.grid line {
+    stroke: #e0e0e0;
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+}
+
+.grid path {
+    stroke-width: 0;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    pointer-events: none;
+    opacity: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 12px;
+}
+
+.filter-badge {
+    display: inline-flex;
+    align-items: center;
+    background: #eef6ff;
+    border: 1px solid #d6e9ff;
+    color: #000; /* black text */
+    padding: 3px 6px; /* decreased padding for a more compact badge */
+    border-radius: 8px; /* less rounded */
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#category-filter-badge {
+    z-index: 40;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.filter-badge-label {
+    margin-right: 6px;
+}
+
+.filter-badge-clear {
+    background: transparent;
+    border: none;
+    color: #000; /* black */
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0 4px;
+    line-height: 1;
+}
+
+.filter-badge-clear:hover {
+    color: #222;
+}
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.amount-positive {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.amount-negative {
+    color: #f44336;
+    font-weight: bold;
+}
+
+.category-buttons {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.category-btn {
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 11px;
+    transition: all 0.2s;
+}
+
+.category-emoji-btn {
+    font-size: 18px;
+    padding: 4px 6px;
+    margin-right: 2px; /* slightly closer spacing */
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.category-emoji-btn.selected {
+    background: #f0f8ff;
+    border-color: #d0e8ff;
+    color: #000;
+}
+.category-emoji-btn.selected[style] {
+    /* when inline style sets dark bg, ensure emoji is visible */
+    color: #fff !important;
+}
+.category-emoji-btn:focus {
+    outline: 2px solid rgba(0,0,0,0.08);
+}
+
+.category-btn:hover {
+    background-color: #e3f2fd;
+    border-color: #2196f3;
+}
+
+.category-btn.selected {
+    background-color: #4caf50;
+    color: white;
+    border-color: #4caf50;
+}
+
+#sankey-chart {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+}
+
+#sankey-chart svg {
+    width: 100%;
+    height: 100%;
+}
+
+.sankey-node rect {
+    cursor: pointer;
+}
+
+.sankey-node text {
+    font-size: 12px;
+    fill: #2b2b2b;
+    dominant-baseline: middle;
+    pointer-events: none;
+}
+
+.sankey-link {
+    fill: none;
+    stroke-opacity: 0.25;
+}
+
+.sankey-link:hover {
+    stroke-opacity: 0.4;
+}
+
+.sankey-link.selected {
+    stroke-opacity: 0.85;
+}
+
+.filter-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Left and right groups should not grow */
+.filter-controls .filter-left,
+.filter-controls .filter-right {
+    flex: 0 0 auto;
+}
+
+/* Center group takes remaining space and centers its contents */
+.filter-controls .filter-center {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-controls #category-filter-indicator {
+    margin-left: auto; /* push the indicator to the right */
+    display: flex;
+    align-items: center;
+}
+
+.filter-badge {
+    display: inline-flex;
+    align-items: center;
+    background: #eef6ff;
+    border: 1px solid #d6e9ff;
+    color: #0b63d0;
+    padding: 3px 6px; /* decreased padding to match compact style */
+    border-radius: 8px; /* less rounded */
+    font-weight: 600;
+}
+
+.filter-badge-label {
+    margin-right: 8px;
+}
+
+.filter-badge-clear {
+    background: transparent;
+    border: none;
+    color: #0b63d0;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0 4px;
+    line-height: 1;
+}
+
+.filter-badge-clear:hover {
+    color: #083a8a;
+}
+
+/* Income/Expense badge color variants */
+.filter-badge.income {
+    background: #e8f8f0;
+    border-color: #cfeee0;
+}
+.filter-badge.expense {
+    background: #fff1f0;
+    border-color: #ffd6d3;
+}
+.filter-badge.income .filter-badge-clear {
+    color: #000;
+}
+.filter-badge.expense .filter-badge-clear {
+    color: #000;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border: 2px solid #ddd;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.filter-btn:hover {
+    background-color: #e3f2fd;
+    border-color: #2196f3;
+}
+
+.filter-btn.active {
+    background-color: #2196f3;
+    color: white;
+    border-color: #2196f3;
+}
+
+.panel {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.panel h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 20px;
+}
+
+/* Brush styles */
+.brush .selection {
+    fill: #667eea;
+    fill-opacity: 0.15;
+    stroke: #667eea;
+    stroke-width: 2;
+    stroke-opacity: 0.8;
+}
+
+.brush .handle {
+    fill: #667eea;
+    stroke: white;
+    stroke-width: 1;
+    rx: 3;
+    ry: 3;
+}
+
+/* Compact transactions table styling */
+table.transactions-table, table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px; /* minimal larger uniform font size */
+}
+
+th, td {
+    padding: 4px 8px; /* tighter spacing */
+    text-align: left;
+    border-bottom: none;
+    vertical-align: middle;
+}
+
+/* Make emoji buttons inherit table font size and be compact */
+.category-emoji-btn {
+    font-size: inherit !important;
+    padding: 2px 3px !important;
+    margin-right: 2px;
+}
+
+/* Truncate long text in payer/payee and purpose columns, show full text on hover */
+.truncate-inner {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.party-cell .truncate-inner {
+    /* allow ~10 extra characters before truncating (adds ~10ch) */
+    max-width: calc(160px + 10ch); /* was 160px; now adds ~10 characters */
+}
+
+.purpose-cell .truncate-inner {
+    /* allow ~15 extra characters before truncating (adds ~15ch) */
+    max-width: calc(300px + 15ch); /* was 300px; now adds ~15 characters */
+}
+
+/* Amount column: shrink to fit and right align */
+.amount-cell {
+    white-space: nowrap;
+    width: 1%; /* allow table to shrink this column */
+}
+
+/* Narrow the comment column */
+.comment-cell {
+    max-width: 140px; /* narrower than before */
+}
+
+.comment-cell .comment-text {
+    max-width: 120px;
+}
+
+/* Render the comment edit control as a plain icon (no button chrome) */
+.comment-edit-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-left: 8px; /* keep existing spacing */
+    cursor: pointer;
+    color: inherit; /* inherit text color */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment-edit-btn svg {
+    width: 14px;
+    height: 14px;
+    display: block;
+}
+
+/* Keep a visible focus outline for accessibility */
+.comment-edit-btn:focus {
+    outline: 2px solid rgba(0,0,0,0.12);
+    outline-offset: 2px;
+    border-radius: 3px;
+}
+
+/* Compact inputs/selects in table */
+.comment-cell input,
+.category-select-cell select {
+    padding: 4px 6px;
+    font-size: inherit;
+}
+
+/* Category badge shown when a transaction is already categorized */
+.category-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: default;
+}
+
+.category-badge .badge-emoji {
+    font-size: 16px;
+    line-height: 1;
+}
+
+.category-badge .badge-label {
+    color: inherit;
+    white-space: nowrap;
+}
+
+.category-badge .category-badge-clear {
+    background: transparent;
+    border: none;
+    color: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0 6px;
+    line-height: 1;
+}
+
+.category-badge .category-badge-clear:focus {
+    outline: 2px solid rgba(0,0,0,0.08);
+    border-radius: 4px;
+}
+
+/* Keep parity with filter badge variants for income/expense */
+.category-badge.income {
+    background: #e8f8f0;
+    border-color: #cfeee0;
+}
+.category-badge.expense {
+    background: #fff1f0;
+    border-color: #ffd6d3;
+}
+
+/* Ensure emoji spans remain compact when shown */
+.category-emoji-btn {
+    font-size: inherit !important;
+    padding: 2px 3px !important;
+    margin-right: 2px;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+/* Wrapper that absolutely centers the search input inside the transactions panel */
+#transactions-search-wrapper {
+    pointer-events: auto;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Search input appearance */
+#transactions-search {
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 13px;
+    background: #fff;
+    color: #222;
+    box-shadow: none;
+}
+
+/* Make sure it remains usable on narrow screens */
+@media (max-width: 640px) {
+    #transactions-search {
+        width: 220px;
+        max-width: 70%;
+        padding: 5px 8px;
+    }
+}

@@ -1,0 +1,501 @@
+date;amount;payer;payee;purpose
+19.10.2025;3.720,67;SideProject Inc;;Salary
+26.11.2025;-436,75;;Pharmacy;Subscription #96
+14.08.2024;-482,01;;Bookstore;Shopping
+22.12.2025;-177,13;;Pharmacy;Membership
+10.01.2024;-128,57;;Internet Co;Utilities
+13.12.2024;1.930,64;Savings Interest;;Dividend
+18.04.2025;-778,52;;Internet Co;Fuel
+08.10.2025;-689,50;;Pharmacy;Shopping
+19.02.2024;-618,68;;Gas Station;Shopping
+27.01.2025;-508,91;;Electricity Co;Coffee
+05.08.2024;-561,75;;Gas Station;Medicine
+03.07.2025;-131,56;;Internet Co;Membership
+08.12.2025;-548,01;;Supermarket;Shopping
+22.11.2024;-53,88;;Pharmacy;Rent
+05.11.2025;-707,86;;Restaurant;Coffee
+12.09.2024;-431,64;;Pharmacy;Subscription
+15.02.2025;-797,86;;Coffee Shop;Books
+21.02.2024;-123,12;;Coffee Shop;Salary
+05.09.2025;1.939,02;Tax Return;;Salary
+15.01.2024;-92,53;;Bookstore;Salary
+21.10.2025;-235,51;;Coffee Shop;Dinner #740
+29.09.2024;-609,81;;Bookstore;Fuel
+04.11.2024;-406,62;;Online Store;Coffee
+17.06.2024;-623,12;;Bookstore;Groceries
+18.05.2025;4.649,04;Dividend Co;;Salary
+06.08.2025;-69,44;;Restaurant;Fuel
+02.07.2025;-103,58;;Restaurant;Books
+27.06.2025;-339,09;;Online Store;Books
+10.12.2025;-250,06;;Electricity Co;Dinner
+10.04.2025;1.162,25;Savings Interest;;Salary
+28.08.2025;-57,72;;Supermarket;Shopping
+05.02.2024;-57,62;;Online Store;Membership
+10.08.2024;-578,96;;Pharmacy;Medicine
+02.05.2025;-153,14;;Gas Station;Gift
+12.03.2025;-691,21;;Supermarket;Gift
+26.10.2025;2.042,98;Savings Interest;;Dividend
+06.07.2025;-338,08;;Gym;Dinner
+21.03.2024;-689,22;;Bookstore;Fuel
+10.07.2025;-775,23;;Online Store;Coffee
+10.05.2025;-321,43;;Supermarket;Coffee
+06.02.2025;-627,47;;Restaurant;Membership
+26.07.2025;-389,85;;Online Store;Membership
+03.03.2024;-434,21;;Electricity Co;Groceries
+06.05.2025;-682,32;;Coffee Shop;Groceries
+26.03.2024;-55,75;;Gas Station;Gift
+20.02.2025;4.456,92;SideProject Inc;;Salary #84
+08.03.2025;-452,62;;Electricity Co;Membership
+20.11.2024;-317,23;;Gym;Dinner
+18.03.2024;3.124,74;Payroll GmbH;;Salary
+01.10.2024;1.777,59;Payroll GmbH;;Dividend
+13.06.2024;-435,03;;Gym;Medicine
+03.11.2025;-534,62;;Bookstore;Membership
+19.04.2024;-108,30;;Gas Station;Fuel
+11.06.2024;-484,26;;Electricity Co;Shopping
+30.09.2024;-201,65;;Supermarket;Fuel
+13.10.2024;1.701,10;Freelance Client A;;Freelance
+21.07.2025;-449,16;;Gas Station;Fuel
+11.12.2025;-436,93;;Electricity Co;Medicine
+19.03.2025;1.575,88;Acme Corp;;Dividend
+18.04.2024;-448,35;;Internet Co;Medicine
+02.09.2024;-780,99;;Coffee Shop;Subscription #755
+09.12.2024;-329,96;;Online Store;Membership
+22.12.2025;4.367,23;Tax Return;;Salary
+19.04.2025;-656,61;;Online Store;Shopping #198
+15.02.2025;-691,62;;Gym;Utilities
+29.11.2025;-429,44;;Supermarket;Fuel
+27.09.2024;4.814,54;Dividend Co;;Salary
+22.12.2024;-251,63;;Pharmacy;Books
+16.08.2025;269,71;Friend Transfer;;Salary
+08.07.2025;-752,27;;Online Store;Utilities
+14.11.2025;-498,90;;Gas Station;Rent
+06.06.2025;-327,31;;Internet Co;Rent
+13.05.2024;3.341,40;Friend Transfer;;Freelance
+07.11.2024;-667,15;;Gym;Membership
+16.09.2025;-372,53;;Restaurant;Gift
+02.05.2025;-767,91;;Coffee Shop;Gift
+14.06.2025;-495,79;;Gas Station;Salary
+16.11.2024;-160,10;;Supermarket;Groceries
+04.05.2025;-615,02;;Restaurant;Subscription
+15.08.2025;3.496,95;Tax Return;;Salary
+08.12.2025;3.767,27;Payroll GmbH;;Freelance
+16.12.2025;-41,12;;Online Store;Fuel
+23.04.2025;-790,33;;Pharmacy;Utilities
+01.04.2025;-575,70;;Bookstore;Subscription
+18.07.2025;-128,17;;Restaurant;Dinner
+13.09.2024;-222,57;;Bookstore;Dinner
+11.10.2024;-571,12;;Online Store;Membership
+10.07.2025;796,61;Friend Transfer;;Freelance
+24.02.2025;-373,27;;Supermarket;Shopping
+05.02.2025;-467,68;;Supermarket;Salary
+06.05.2025;1.791,21;Friend Transfer;;Dividend
+16.07.2025;-718,35;;Restaurant;Shopping
+15.05.2025;1.713,84;Friend Transfer;;Freelance
+02.10.2025;-725,64;;Pharmacy;Medicine
+29.03.2024;-109,42;;Restaurant;Coffee
+26.01.2025;-364,30;;Electricity Co;Salary
+10.03.2025;-66,44;;Supermarket;Rent
+27.12.2024;-55,83;;Supermarket;Salary #254
+26.07.2024;-497,45;;Online Store;Coffee
+30.04.2024;-175,15;;Gym;Salary
+16.09.2025;-574,97;;Coffee Shop;Membership
+30.01.2024;-461,06;;Internet Co;Subscription
+21.03.2024;-664,63;;Online Store;Fuel
+07.11.2024;-480,73;;Gas Station;Salary
+15.02.2024;-343,27;;Electricity Co;Fuel
+18.12.2024;2.129,29;Tax Return;;Salary
+15.10.2025;-368,33;;Coffee Shop;Subscription
+21.06.2025;-216,80;;Bookstore;Salary
+25.03.2025;-474,39;;Electricity Co;Shopping
+01.04.2024;-361,19;;Restaurant;Medicine
+26.01.2025;-395,95;;Electricity Co;Coffee
+01.01.2025;-272,93;;Pharmacy;Rent
+26.07.2025;4.742,91;Payroll GmbH;;Salary
+25.07.2025;-552,80;;Restaurant;Dinner
+08.04.2024;-324,12;;Online Store;Membership
+15.01.2025;-425,21;;Internet Co;Rent
+29.12.2024;-217,46;;Gym;Shopping
+19.07.2024;-594,56;;Coffee Shop;Shopping
+13.05.2025;-472,08;;Bookstore;Medicine
+15.04.2024;-237,70;;Electricity Co;Coffee
+29.12.2025;-220,17;;Supermarket;Books
+12.05.2024;-602,48;;Gas Station;Groceries
+28.04.2025;-273,22;;Supermarket;Membership
+07.05.2025;373,45;Tax Return;;Salary
+27.02.2024;4.065,15;Dividend Co;;Salary
+28.07.2025;-485,45;;Pharmacy;Shopping
+27.01.2025;-354,73;;Pharmacy;Subscription
+30.09.2025;4.802,54;Payroll GmbH;;Interest
+07.08.2024;-65,87;;Online Store;Coffee
+12.06.2024;2.279,99;Tax Return;;Salary
+27.12.2025;-687,83;;Gas Station;Gift
+30.09.2024;-500,42;;Online Store;Subscription
+21.08.2024;-726,82;;Coffee Shop;Fuel
+13.11.2024;-659,57;;Gym;Dinner
+09.12.2025;-322,60;;Gym;Books
+26.03.2024;-711,65;;Electricity Co;Medicine
+06.04.2024;-539,76;;Pharmacy;Medicine
+22.11.2025;-461,42;;Coffee Shop;Dinner
+31.03.2025;-146,01;;Pharmacy;Subscription
+21.05.2025;-376,54;;Internet Co;Utilities
+16.06.2024;-555,25;;Gym;Gift
+10.02.2024;-252,30;;Electricity Co;Fuel
+20.02.2025;-660,12;;Supermarket;Gift
+21.04.2025;-150,88;;Electricity Co;Medicine
+05.10.2025;-42,24;;Gym;Books
+27.03.2025;-388,28;;Supermarket;Gift
+05.09.2024;-249,29;;Supermarket;Books
+21.08.2024;-730,43;;Restaurant;Fuel
+09.06.2024;-573,57;;Bookstore;Rent
+12.05.2025;-195,74;;Bookstore;Coffee
+08.09.2025;-703,58;;Gas Station;Membership
+03.03.2025;-630,39;;Gym;Groceries
+04.11.2024;-464,36;;Restaurant;Coffee
+13.05.2025;-441,98;;Bookstore;Subscription
+28.11.2024;-784,64;;Online Store;Medicine
+27.02.2025;3.736,29;Friend Transfer;;Salary
+01.11.2025;-396,77;;Supermarket;Coffee
+30.08.2025;-81,19;;Restaurant;Fuel
+15.04.2025;763,57;Freelance Client A;;Salary
+01.10.2024;-554,47;;Gas Station;Utilities
+03.07.2025;-254,01;;Restaurant;Books #71
+31.08.2024;-736,82;;Online Store;Rent
+13.04.2024;-563,41;;Gas Station;Dinner
+05.11.2024;-37,75;;Supermarket;Membership
+20.03.2025;2.679,27;Freelance Client A;;Salary
+29.01.2025;-193,42;;Pharmacy;Coffee
+18.10.2025;-205,01;;Supermarket;Salary
+24.10.2024;-127,22;;Restaurant;Utilities
+05.11.2024;-340,02;;Gym;Dinner
+25.07.2024;-682,82;;Gas Station;Shopping
+05.01.2025;-794,16;;Gym;Groceries
+08.11.2025;-7,47;;Supermarket;Medicine
+23.10.2024;-184,86;;Electricity Co;Shopping
+30.09.2025;-604,71;;Coffee Shop;Gift
+07.10.2025;-247,84;;Restaurant;Groceries
+17.05.2024;1.510,80;Friend Transfer;;Salary
+09.07.2025;-293,32;;Bookstore;Membership
+23.09.2024;-755,41;;Gym;Rent
+30.04.2024;-61,16;;Online Store;Gift
+13.02.2025;-643,87;;Electricity Co;Fuel
+18.01.2024;-99,75;;Electricity Co;Gift
+24.08.2025;-511,20;;Electricity Co;Fuel
+30.04.2025;4.426,96;Savings Interest;;Interest
+23.04.2025;-242,45;;Internet Co;Fuel
+11.02.2024;-394,61;;Gas Station;Shopping
+21.05.2024;-297,44;;Bookstore;Subscription
+10.06.2024;-524,28;;Restaurant;Medicine
+16.10.2024;1.884,12;Tax Return;;Salary
+09.01.2025;3.444,12;Savings Interest;;Salary
+08.05.2024;-659,53;;Gas Station;Gift
+19.10.2025;-18,06;;Electricity Co;Shopping
+04.08.2025;-664,02;;Bookstore;Shopping
+29.08.2024;-118,90;;Pharmacy;Groceries
+31.05.2024;-432,63;;Coffee Shop;Fuel
+30.01.2024;1.823,30;SideProject Inc;;Salary #272
+26.02.2024;2.133,75;Payroll GmbH;;Freelance
+08.01.2025;-88,13;;Bookstore;Shopping
+17.02.2024;-727,09;;Bookstore;Membership
+04.02.2024;2.420,96;Friend Transfer;;Salary
+02.01.2026;-59,72;;Gas Station;Utilities
+11.03.2024;3.140,37;Savings Interest;;Salary
+31.10.2024;-484,74;;Gas Station;Salary
+04.11.2025;-615,40;;Online Store;Subscription
+24.08.2024;-662,11;;Internet Co;Subscription
+16.03.2025;-204,66;;Coffee Shop;Gift
+12.03.2024;472,55;Friend Transfer;;Salary
+16.05.2024;-469,59;;Bookstore;Books
+08.05.2024;-699,01;;Internet Co;Rent
+24.10.2024;-281,97;;Pharmacy;Books
+06.11.2025;-677,97;;Electricity Co;Books
+13.08.2025;-343,86;;Bookstore;Salary
+23.09.2025;-445,84;;Pharmacy;Gift
+03.10.2024;1.402,69;Dividend Co;;Interest
+29.05.2024;-321,23;;Coffee Shop;Rent
+04.02.2024;2.675,89;Friend Transfer;;Salary
+16.01.2025;-260,18;;Pharmacy;Medicine
+26.02.2024;3.784,46;Acme Corp;;Freelance
+15.05.2025;-331,93;;Online Store;Salary
+22.12.2024;-227,31;;Pharmacy;Dinner
+14.11.2024;2.006,55;Acme Corp;;Salary
+07.08.2024;-611,56;;Gym;Utilities
+19.03.2025;1.932,03;SideProject Inc;;Salary
+31.12.2024;4.315,73;Acme Corp;;Salary
+23.03.2024;-461,03;;Pharmacy;Subscription
+06.03.2025;-324,62;;Electricity Co;Coffee
+27.09.2025;-552,00;;Electricity Co;Fuel
+21.04.2024;-471,51;;Bookstore;Fuel
+16.11.2024;-178,04;;Coffee Shop;Fuel
+29.04.2024;-155,93;;Electricity Co;Utilities
+03.06.2024;-118,01;;Online Store;Coffee
+05.11.2025;4.758,90;Tax Return;;Salary
+19.08.2025;-739,40;;Pharmacy;Gift
+04.10.2025;-776,81;;Electricity Co;Coffee
+28.04.2025;-242,95;;Gym;Medicine
+06.06.2025;2.335,63;Acme Corp;;Salary
+22.03.2024;-781,92;;Gas Station;Medicine
+31.01.2025;-443,90;;Supermarket;Dinner
+11.08.2025;-257,90;;Restaurant;Books
+07.03.2024;-648,96;;Electricity Co;Rent
+26.10.2025;1.276,33;Tax Return;;Refund
+10.01.2025;-227,03;;Internet Co;Salary
+26.02.2024;-518,20;;Gas Station;Utilities
+28.11.2025;-202,34;;Pharmacy;Coffee
+22.08.2025;-733,48;;Gym;Gift
+15.05.2024;-750,46;;Gym;Books
+13.05.2024;-663,34;;Bookstore;Fuel
+12.03.2025;-15,57;;Gym;Coffee
+18.12.2024;-389,53;;Online Store;Coffee
+01.11.2024;-81,81;;Bookstore;Rent
+11.02.2024;-701,24;;Pharmacy;Coffee
+09.06.2024;4.165,16;Freelance Client A;;Freelance #374
+03.09.2024;-488,87;;Restaurant;Shopping
+15.11.2024;-627,71;;Online Store;Utilities
+10.08.2025;-369,88;;Gym;Salary
+07.03.2025;-653,70;;Pharmacy;Coffee
+26.02.2024;-699,42;;Bookstore;Fuel
+15.06.2025;-228,77;;Coffee Shop;Membership
+12.06.2025;2.215,49;SideProject Inc;;Dividend
+03.03.2025;2.534,94;SideProject Inc;;Salary
+20.08.2024;4.657,59;Savings Interest;;Freelance
+01.05.2025;-111,90;;Restaurant;Dinner
+25.03.2024;1.117,49;Freelance Client A;;Salary
+27.06.2025;-621,16;;Online Store;Membership
+04.09.2024;-635,33;;Restaurant;Fuel
+29.05.2025;-14,13;;Bookstore;Medicine
+30.05.2024;-2,25;;Electricity Co;Shopping
+13.07.2024;-69,41;;Electricity Co;Fuel
+14.07.2025;-790,68;;Bookstore;Groceries
+29.04.2025;1.965,06;Savings Interest;;Salary #808
+13.03.2024;-586,62;;Gas Station;Salary
+09.12.2024;1.793,88;Savings Interest;;Dividend
+23.04.2025;-383,35;;Coffee Shop;Salary
+16.04.2025;1.047,88;SideProject Inc;;Dividend
+14.02.2025;-434,88;;Gym;Groceries
+17.07.2024;-689,85;;Supermarket;Gift
+10.05.2024;-350,12;;Internet Co;Rent
+02.02.2025;-150,27;;Restaurant;Utilities
+18.06.2025;-67,01;;Internet Co;Fuel
+06.07.2024;-257,65;;Gas Station;Utilities
+12.11.2024;-574,41;;Coffee Shop;Rent
+05.04.2025;4.356,68;Savings Interest;;Freelance
+02.03.2024;3.205,69;Savings Interest;;Salary
+15.06.2024;-115,08;;Pharmacy;Gift
+08.02.2024;1.218,18;Savings Interest;;Salary
+06.02.2024;-543,57;;Electricity Co;Utilities
+13.08.2025;1.866,40;Savings Interest;;Freelance
+12.07.2024;-310,20;;Bookstore;Fuel
+26.09.2024;-172,44;;Pharmacy;Membership
+20.05.2025;-109,45;;Gas Station;Dinner
+03.01.2026;-71,14;;Electricity Co;Gift
+20.07.2025;-713,17;;Coffee Shop;Rent
+21.12.2025;-635,16;;Bookstore;Shopping
+27.07.2024;-190,15;;Restaurant;Groceries
+12.08.2025;-643,13;;Bookstore;Coffee
+01.04.2024;2.020,89;Tax Return;;Salary
+14.08.2025;4.863,28;Payroll GmbH;;Salary
+21.12.2024;4.153,82;Freelance Client A;;Freelance
+29.02.2024;-414,96;;Gym;Coffee
+30.12.2025;-758,04;;Bookstore;Membership
+16.09.2024;4.783,94;Dividend Co;;Salary
+03.07.2025;3.222,89;Freelance Client A;;Salary
+14.09.2025;-739,22;;Supermarket;Groceries
+21.10.2025;-212,46;;Online Store;Salary
+27.09.2025;-398,93;;Bookstore;Membership
+08.11.2024;-643,95;;Internet Co;Membership
+05.03.2024;2.107,33;Tax Return;;Salary
+19.11.2024;-256,13;;Electricity Co;Subscription
+14.06.2025;-255,97;;Restaurant;Fuel
+13.09.2024;300,50;Friend Transfer;;Dividend
+15.06.2024;-747,07;;Electricity Co;Shopping
+28.05.2025;-373,99;;Gym;Dinner #968
+09.02.2025;-773,38;;Online Store;Medicine
+24.02.2024;-478,42;;Restaurant;Membership
+23.04.2024;-706,08;;Electricity Co;Salary
+17.02.2025;2.830,99;Savings Interest;;Salary
+03.06.2025;-440,34;;Pharmacy;Gift
+14.05.2024;-315,73;;Electricity Co;Books
+25.07.2024;-321,71;;Supermarket;Groceries #731
+10.12.2024;-415,95;;Coffee Shop;Medicine
+26.05.2024;-490,84;;Coffee Shop;Subscription
+05.11.2024;-406,34;;Bookstore;Books
+02.08.2025;-652,78;;Electricity Co;Utilities
+23.08.2025;-719,11;;Supermarket;Medicine
+05.11.2025;-621,15;;Pharmacy;Shopping
+23.08.2025;-419,86;;Pharmacy;Salary
+03.06.2024;-194,52;;Pharmacy;Rent
+23.01.2024;-335,61;;Internet Co;Rent
+31.05.2025;-736,50;;Supermarket;Rent
+03.08.2024;-798,50;;Restaurant;Books
+29.06.2024;-426,97;;Bookstore;Utilities
+01.12.2025;-554,96;;Pharmacy;Dinner
+12.09.2024;-239,50;;Gym;Salary
+10.12.2025;-254,32;;Electricity Co;Books
+10.10.2024;-459,21;;Bookstore;Subscription
+11.02.2025;-763,73;;Coffee Shop;Membership #979
+24.03.2024;-354,46;;Gym;Rent
+28.07.2024;-217,64;;Bookstore;Rent
+24.04.2024;-469,88;;Online Store;Groceries
+30.06.2025;-187,04;;Gas Station;Subscription
+01.05.2025;3.865,29;Acme Corp;;Refund
+02.11.2025;-702,84;;Restaurant;Gift
+24.10.2024;-517,07;;Gas Station;Gift
+04.07.2025;-680,42;;Supermarket;Coffee
+02.07.2024;-30,04;;Internet Co;Salary
+26.10.2024;-8,40;;Pharmacy;Medicine
+12.12.2024;-791,29;;Bookstore;Books
+20.05.2024;-374,95;;Online Store;Salary
+18.06.2024;-518,98;;Coffee Shop;Groceries
+01.11.2024;-606,07;;Coffee Shop;Medicine
+22.02.2025;-412,71;;Gas Station;Subscription
+11.07.2024;-382,49;;Online Store;Groceries
+01.09.2024;-214,33;;Electricity Co;Membership
+15.01.2024;-288,28;;Online Store;Groceries
+24.04.2025;-324,93;;Bookstore;Rent
+10.12.2025;4.584,85;Dividend Co;;Salary
+19.05.2024;-364,53;;Pharmacy;Utilities
+19.07.2025;-606,12;;Online Store;Salary
+05.09.2025;-66,41;;Restaurant;Books
+23.03.2024;-90,65;;Bookstore;Books
+06.07.2025;1.674,18;Tax Return;;Salary
+23.08.2025;-719,21;;Restaurant;Salary
+18.05.2024;-365,98;;Supermarket;Books
+14.11.2024;-317,36;;Supermarket;Rent
+18.03.2024;1.755,42;Payroll GmbH;;Salary
+14.03.2024;-378,18;;Gym;Subscription
+21.10.2025;-517,06;;Internet Co;Utilities
+07.04.2025;-725,51;;Internet Co;Fuel
+11.11.2025;-107,26;;Electricity Co;Fuel
+07.07.2025;-102,75;;Online Store;Groceries
+04.11.2024;-575,56;;Internet Co;Books
+13.09.2024;-124,94;;Online Store;Rent
+05.02.2024;-335,97;;Supermarket;Shopping
+16.04.2024;-357,71;;Supermarket;Shopping
+18.02.2025;-432,27;;Supermarket;Coffee
+26.10.2024;-733,20;;Pharmacy;Utilities
+22.11.2025;-190,29;;Coffee Shop;Gift
+02.03.2025;-49,71;;Pharmacy;Rent
+06.10.2025;-445,12;;Supermarket;Utilities
+21.11.2025;-420,05;;Internet Co;Subscription
+10.07.2024;-379,34;;Online Store;Membership
+30.05.2024;-731,88;;Bookstore;Subscription
+27.07.2025;-311,35;;Gym;Shopping
+24.03.2024;-677,86;;Gas Station;Books
+17.07.2024;1.916,98;Acme Corp;;Dividend
+21.11.2025;-384,04;;Electricity Co;Membership
+07.08.2024;-769,70;;Gas Station;Rent
+08.05.2025;-556,81;;Online Store;Subscription
+22.07.2025;-227,16;;Restaurant;Books
+14.11.2024;-410,74;;Restaurant;Dinner
+28.04.2025;-256,87;;Online Store;Utilities
+19.02.2024;-177,80;;Coffee Shop;Groceries
+24.08.2025;-334,64;;Coffee Shop;Shopping
+26.01.2025;-197,34;;Bookstore;Gift
+14.12.2024;-657,45;;Restaurant;Dinner
+29.12.2024;3.615,55;Tax Return;;Salary
+22.10.2025;-419,63;;Gas Station;Gift #7
+01.03.2025;3.171,97;Payroll GmbH;;Freelance #518
+14.04.2025;-494,65;;Pharmacy;Dinner
+20.01.2024;2.780,64;Acme Corp;;Salary
+05.07.2025;-14,70;;Internet Co;Salary
+22.04.2024;-419,98;;Online Store;Shopping
+18.09.2024;-214,59;;Internet Co;Fuel
+22.02.2025;-195,32;;Online Store;Membership
+26.03.2024;-686,72;;Supermarket;Fuel
+24.01.2025;-45,84;;Supermarket;Rent
+29.05.2025;-516,28;;Electricity Co;Medicine
+10.04.2024;-735,40;;Online Store;Shopping
+12.12.2025;-380,92;;Supermarket;Fuel
+17.10.2024;-451,24;;Supermarket;Coffee
+21.11.2024;1.075,43;Freelance Client A;;Freelance
+22.03.2024;-451,60;;Pharmacy;Subscription
+10.07.2025;-604,73;;Coffee Shop;Salary
+24.03.2024;-779,48;;Supermarket;Fuel
+21.03.2024;-615,44;;Pharmacy;Subscription
+03.12.2024;1.402,97;Tax Return;;Salary
+22.01.2025;-544,08;;Internet Co;Fuel
+01.11.2024;-570,77;;Gas Station;Membership
+01.01.2026;-124,27;;Internet Co;Utilities
+09.01.2024;-356,34;;Gym;Fuel
+13.07.2024;-446,03;;Bookstore;Subscription
+04.04.2024;-75,36;;Pharmacy;Salary
+01.02.2025;2.098,36;Payroll GmbH;;Freelance
+08.09.2024;-136,50;;Internet Co;Coffee
+07.11.2024;-117,60;;Coffee Shop;Subscription
+05.11.2024;-62,46;;Gym;Shopping
+25.05.2025;-157,24;;Gas Station;Coffee
+12.02.2025;-496,53;;Electricity Co;Dinner
+31.10.2025;-109,76;;Electricity Co;Medicine
+27.07.2024;-142,93;;Internet Co;Utilities
+13.10.2025;-461,13;;Online Store;Utilities
+09.02.2025;-745,72;;Online Store;Medicine
+06.07.2024;-440,53;;Restaurant;Rent
+28.10.2024;-56,26;;Internet Co;Gift
+09.11.2024;-527,27;;Internet Co;Salary
+07.09.2025;-321,24;;Bookstore;Rent
+10.02.2024;-288,26;;Bookstore;Medicine
+31.03.2024;1.278,74;Savings Interest;;Salary
+02.08.2025;-542,30;;Internet Co;Salary
+21.04.2024;1.330,75;SideProject Inc;;Salary
+29.11.2025;-400,87;;Electricity Co;Groceries
+01.11.2024;-769,42;;Gas Station;Rent
+18.11.2024;-627,63;;Bookstore;Dinner
+12.04.2024;-557,71;;Electricity Co;Fuel
+31.12.2025;4.253,44;Payroll GmbH;;Freelance
+09.09.2024;-441,98;;Electricity Co;Books
+28.08.2024;-504,18;;Coffee Shop;Gift
+12.02.2025;3.089,83;SideProject Inc;;Salary
+08.01.2024;-165,42;;Gas Station;Medicine
+06.07.2025;1.663,63;Tax Return;;Salary
+19.05.2025;-511,65;;Pharmacy;Subscription
+27.08.2025;1.792,33;Tax Return;;Freelance
+03.11.2024;-472,54;;Coffee Shop;Utilities
+11.11.2024;1.897,87;Freelance Client A;;Salary
+24.05.2024;-339,01;;Restaurant;Gift
+25.10.2025;-139,41;;Coffee Shop;Dinner
+13.07.2024;-361,35;;Supermarket;Utilities
+14.05.2025;4.085,32;Tax Return;;Salary
+31.12.2025;-391,47;;Gas Station;Medicine #780
+16.08.2024;-220,61;;Bookstore;Membership
+16.04.2025;-618,27;;Restaurant;Books
+12.08.2025;3.886,81;Savings Interest;;Salary
+30.03.2025;-791,83;;Gas Station;Rent
+13.09.2024;-799,45;;Restaurant;Membership
+02.04.2024;-795,17;;Online Store;Shopping
+28.08.2025;-688,98;;Pharmacy;Gift
+25.09.2025;1.072,77;SideProject Inc;;Dividend
+06.09.2025;-259,60;;Gym;Membership
+29.11.2025;-109,34;;Internet Co;Groceries
+05.11.2025;4.337,09;SideProject Inc;;Salary
+13.09.2024;-541,31;;Restaurant;Coffee
+05.10.2024;-300,76;;Gas Station;Gift
+08.04.2024;-600,09;;Electricity Co;Dinner
+04.12.2024;-695,26;;Gas Station;Rent
+15.10.2025;-287,22;;Gas Station;Salary
+14.08.2024;-660,05;;Restaurant;Membership
+20.10.2024;-462,77;;Pharmacy;Dinner
+02.12.2025;-37,71;;Restaurant;Groceries
+13.06.2024;-1,54;;Internet Co;Shopping
+18.05.2024;-242,19;;Gym;Fuel
+16.09.2024;3.339,32;Freelance Client A;;Salary
+20.12.2025;-343,96;;Gas Station;Rent
+09.08.2024;-107,03;;Online Store;Books
+13.01.2024;1.750,69;Payroll GmbH;;Refund
+18.05.2024;-183,93;;Gas Station;Rent
+18.04.2024;-704,91;;Coffee Shop;Subscription
+19.05.2024;-542,03;;Gas Station;Books
+19.09.2025;-352,64;;Online Store;Gift
+28.02.2025;-354,46;;Online Store;Fuel
+26.05.2024;-472,07;;Internet Co;Utilities
+26.05.2024;-516,05;;Online Store;Books
+17.09.2025;-753,08;;Supermarket;Gift
+01.08.2024;-408,11;;Internet Co;Membership
+24.05.2025;-193,62;;Pharmacy;Fuel
+16.01.2024;-747,21;;Coffee Shop;Subscription
+08.08.2025;-437,54;;Coffee Shop;Salary
+18.03.2024;384,29;Dividend Co;;Salary
+14.02.2025;-503,23;;Bookstore;Salary
+22.12.2025;-512,79;;Bookstore;Medicine
+29.03.2024;-409,53;;Online Store;Salary
+03.12.2024;-507,80;;Gas Station;Membership

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Finance Tracker</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="panel" id="overview-panel">
+            <h2>Timeline</h2>
+            <div id="chart"></div>
+            <div class="tooltip"></div>
+        </div>
+        
+        <div class="panel" id="sankey-panel">
+            <h2 id="sankey-title">Cash Flow</h2>
+            <div id="sankey-chart">
+                <p style="text-align: center; color: #999; padding: 40px 0;">Loading...</p>
+            </div>
+        </div>
+        
+        <div class="panel" id="transactions-panel">
+            <h2 id="transactions-title">Transactions</h2>
+            <div id="details-content">
+                <p style="text-align: center; color: #999; padding: 40px 0;">Loading...</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Data injected by the backend
+        const data = {{ chart_data|safe }};
+        const transactionDetails = {{ transaction_details|safe }};
+    </script>
+    <script src="/static/chart.js"></script>
+</body>
+</html>
