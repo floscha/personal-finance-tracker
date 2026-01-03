@@ -1,4 +1,4 @@
-# Personal Finance
+# Personal Finance Tracker
 
 ![usage demo gif](.github/media/usage_demo.gif)
 
