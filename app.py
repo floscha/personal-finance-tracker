@@ -25,6 +25,19 @@ def get_data_dir() -> Path:
     return Path(os.getenv("PERSONAL_FINANCE_DATA_DIR") or "./example_data")
 
 
+def load_settings() -> dict:
+    """Load settings.json from the data directory if present and return as dict."""
+    settings_file = get_data_dir() / "settings.json"
+    if settings_file.exists():
+        try:
+            with open(settings_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception:
+            # If malformed, return empty dict and let caller handle validation
+            return {}
+    return {}
+
+
 def get_transactions_file() -> Path:
     """Return the Path to the transactions CSV from env or data dir (optional default for backward compatibility)."""
     return get_data_dir() / "transactions.csv"
@@ -55,6 +68,17 @@ def load_transactions(csv_file: str) -> pd.DataFrame:
     """
     # Read CSV file (semicolon-separated)
     df = pd.read_csv(csv_file, sep=';', encoding='utf-8', dtype=str)
+
+    # Apply column aliases from settings.json if provided. The settings file
+    # should live in the same directory as the CSV files (data dir) and may
+    # contain an "column_aliases" mapping of original_column -> alias_column.
+    settings = load_settings()
+    aliases = settings.get("column_aliases") if isinstance(settings, dict) else None
+    if aliases and isinstance(aliases, dict):
+        # Only rename columns that are present in the dataframe
+        rename_map = {orig: alias for orig, alias in aliases.items() if orig in df.columns}
+        if rename_map:
+            df = df.rename(columns=rename_map)
 
     # Ensure expected columns exist; create optional ones if missing
     expected_columns = ['date', 'amount', 'payer', 'payee', 'purpose']

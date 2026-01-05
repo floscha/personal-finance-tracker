@@ -1,0 +1,9 @@
+{
+  "column_aliases": {
+    "date": "date",
+    "amount": "amount",
+    "payer": "payer",
+    "payee": "payee",
+    "purpose": "purpose"
+  }
+}
