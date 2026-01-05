@@ -37,40 +37,9 @@ def get_annotations_file() -> Path:
 
 def create_transaction_hash(row: pd.Series) -> str:
     """Create a unique hash for a transaction row."""
-    # Build canonical textual representation matching CSV: date;amount;payer;payee;purpose
-    def format_german_amount(value) -> str:
-        # value may be float or a string already in German format
-        if pd.isna(value):
-            return ""
-        if isinstance(value, str):
-            # assume already formatted like "3.577,62" or "-123,45"
-            return value
-        # numeric -> format with '.' thousands and ',' decimals
-        negative = value < 0
-        abs_val = abs(float(value))
-        euros = int(abs_val)
-        cents = int(round((abs_val - euros) * 100))
-        euros_str = f"{euros:,}".replace(",", ".")
-        return ("-" if negative else "") + f"{euros_str},{cents:02d}"
-
-    # date may be Timestamp or string
-    date_val = row.get('date', '')
-    if pd.isna(date_val):
-        date_str = ""
-    elif hasattr(date_val, 'strftime'):
-        date_str = date_val.strftime('%d.%m.%Y')
-    else:
-        date_str = str(date_val)
-
-    amount_val = row.get('amount', '')
-    amount_str = format_german_amount(amount_val)
-
-    payer = str(row.get('payer', '') or '')
-    payee = str(row.get('payee', '') or '')
-    purpose = str(row.get('purpose', '') or '')
-
-    # Concatenate in CSV column order using '|' as in generator script
-    row_string = '|'.join([date_str, amount_str, payer, payee, purpose])
+    # Concatenate all row values to create a unique string
+    row_string = '|'.join(str(val) for val in row.values)
+    # Create SHA256 hash
     return hashlib.sha256(row_string.encode('utf-8')).hexdigest()
 
 
