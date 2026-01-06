@@ -71,12 +71,12 @@ def load_transactions(csv_file: str) -> pd.DataFrame:
 
     # Apply column aliases from settings.json if provided. The settings file
     # should live in the same directory as the CSV files (data dir) and may
-    # contain an "column_aliases" mapping of original_column -> alias_column.
+    # contain a "column_aliases" mapping of expected_column -> actual_column.
+    # Example: {"date": "My Date", "amount": "My Amount"}
     settings = load_settings()
     aliases = settings.get("column_aliases") if isinstance(settings, dict) else None
     if aliases and isinstance(aliases, dict):
-        # Only rename columns that are present in the dataframe
-        rename_map = {orig: alias for orig, alias in aliases.items() if orig in df.columns}
+        rename_map = {actual: expected for expected, actual in aliases.items() if actual in df.columns}
         if rename_map:
             df = df.rename(columns=rename_map)
 
